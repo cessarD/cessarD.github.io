@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	background-color: black;
+	position: fixed;
+	width: 100vw;
+}
+#ha{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+h1{
+	padding-left: 40vw;
+	color: white;
+}
+#personal{
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	
+}
+body{
+	background-color: black;
+	color: white;
+	
+}
+main{
+	display: grid;
+}
+ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	list-style: none;
+	
+}
+aside{
+	padding-top: 270px;
+	width: 15vw;
+	position: fixed;
+	border-right: solid 1px white;
+	height: 100vw;
+}
+li{
+	width: 10vw;
+	padding: 10px;
+	margin-top: 20px;
+	border: 2px solid blue;
+	border-radius: 40px;
+	background: white;
+}
+
+li:hover{
+	background-color: yellow;
+}
+h2 {
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+}
+article{
+	width: 80vw;
+	padding-left: 16vw;
+	padding-top: 200px;
+	text-align: justify;
+}
+
